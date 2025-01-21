@@ -1,7 +1,8 @@
 ---
 title: "Astro Sphere: File Structure"
-summary: "You'll find these directories and files in the project. What do they do?"
+summary: "Aqui puedes encontrar todos los archivos de la web y qué hacen cada uno"
 date: "Mar 17 2024"
+actualizado y traducido por: Oscar Racero
 draft: false
 tags:
 - Tutorial
@@ -12,40 +13,41 @@ tags:
 A one line summary of what each file and directory is for:
 ```js
 /
-├── public/ // Files publicly available to the browser
-│   ├── fonts/ // The default fonts for Astro Sphere
-│   │   └── atkinson-bold.woff  // default font weight 700
-│   │   └── atkinson-regular.woff // default font weight 400
-│   ├── js/ // Javascript that will be imported into <head>
-│   │   └── animate.js // function for animating page elements
-│   │   └── bg.js // function for generating the background
-│   │   └── scroll.js // scroll handler for the header styles
-│   │   └── theme.js // controls the light and dark theme
-│   └── brand.svg //the icon that displays in header and footer
-│   └── favicon.svg //the icon that displays in the browser
-│   └── ui.svg // an svg sprite for all ui icons on the website
-│   └── social.svg // an svg sprite for all social media icons
-│   └── open-graph.jpg // the default image for open-graph
-│   └── robots.txt // for web crawlers and bots to index the website
-├── src/ // Everything that will be built for the website
-│   ├── components/ // All astro and SolidJs components
-│   ├── content/ // Contains all static markdown to be compiled
-│   │   |  blog/ // Contains all blog post markdown
-│   │   |  projects/ // Contains all projects markdown
-│   │   |  work/ // Contains all work page markdown
-│   │   |  legal/ // Contains all legal docs markdown
-│   │   └── config.ts // Contains the collection config for Astro
-│   ├── layouts/ // Reused layouts across the website
-│   └── pages/ // All of the pages on the website
-│   └── styles/ // CSS and global tailwind styles
-│   └── lib/ // Global helper functions
-│   └── consts.ts // Page metadata, general configuration
-│   └── types.ts // Types for consts.ts
-└── .gitignore // Files and directories to be ignored by Git
-└── .eslintignore // Files and directories to be ignored by ESLint
-└── eslintrc.cjs // ESLint configuration
-└── astro.config.mjs // Astro configuration
-└── tailwind.config.mjs // Tailwind configuration
-└── tsconfig.json // Typescript configuration
-└── package.json // All the installed packages
+├── public/ // Archivos disponibles públicamente para el navegador
+│   ├── fonts/ // Las fuentes predeterminadas para Astro Sphere
+│   │   └── atkinson-bold.woff  // Fuente predeterminada con peso 700
+│   │   └── atkinson-regular.woff // Fuente predeterminada con peso 400
+│   ├── js/ // Archivos Javascript que se importarán en <head>
+│   │   └── animate.js // Función para animar elementos de la página
+│   │   └── bg.js // Función para generar el fondo
+│   │   └── scroll.js // Manejador de desplazamiento para los estilos del encabezado
+│   │   └── theme.js // Controla los temas claro y oscuro
+│   └── brand.svg // El ícono que se muestra en el encabezado y el pie de página
+│   └── favicon.svg // El ícono que se muestra en el navegador
+│   └── ui.svg // Un sprite SVG para todos los íconos de la interfaz en el sitio web
+│   └── social.svg // Un sprite SVG para todos los íconos de redes sociales
+│   └── open-graph.jpg // La imagen predeterminada para Open Graph
+│   └── robots.txt // Para que rastreadores y bots indexen el sitio web
+├── src/ // Todo lo que será compilado para el sitio web
+│   ├── components/ // Todos los componentes de Astro y SolidJS
+│   ├── content/ // Contiene todo el contenido estático en markdown para compilar
+│   │   |  blog/ // Contiene todas las publicaciones del blog en markdown
+│   │   |  projects/ // Contiene todos los proyectos en markdown
+│   │   |  work/ // Contiene todo el contenido de la página "Work" en markdown
+│   │   |  legal/ // Contiene todos los documentos legales en markdown
+│   │   └── config.ts // Contiene la configuración de la colección para Astro
+│   ├── layouts/ // Diseños reutilizables en todo el sitio web
+│   └── pages/ // Todas las páginas del sitio web
+│   └── styles/ // Estilos CSS y estilos globales de Tailwind
+│   └── lib/ // Funciones de ayuda globales
+│   └── consts.ts // Metadatos de las páginas, configuración general
+│   └── types.ts // Tipos para `consts.ts`
+└── .gitignore // Archivos y directorios que serán ignorados por Git
+└── .eslintignore // Archivos y directorios que serán ignorados por ESLint
+└── eslintrc.cjs // Configuración de ESLint
+└── astro.config.mjs // Configuración de Astro
+└── tailwind.config.mjs // Configuración de Tailwind
+└── tsconfig.json // Configuración de TypeScript
+└── package.json // Todos los paquetes instalados
+
 ```
