@@ -2,51 +2,51 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  TITLE: "TechDevAi",
+  DESCRIPTION: "Bienvenidos al portfolio de Oscar Racero aka TechDevAi, un lugar donde muestro mi relación con la programacion, ciberseguridad, IA y UX.",
+  AUTHOR: "Oscar Racero",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Formación",
+  DESCRIPTION: "El lugar donde indico la formación reglada, cursos y certificaciones.",
 }
 
 // Blog Page
 export const BLOG: Page = {
-  TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  TITLE: "Artículos",
+  DESCRIPTION: "El lugar donde publico artículos sobre diferentes temáticas: Programación, IA, Tecnología, Ciberseguridad, educación, etc.",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Proyectos",
+  DESCRIPTION: "Aquí puedes ver los proyectos que he ido llevando a cabo.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Búsqueda",
+  DESCRIPTION: "Buscar en todas las publicaciones, trabajos y proyectos por palabra clave.",
 }
 
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Home", 
+    TEXT: "Inicio", 
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
+    TEXT: "Formación", 
     HREF: "/work", 
   },
   { 
-    TEXT: "Blog", 
+    TEXT: "Artículos", 
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
+    TEXT: "Proyectos", 
     HREF: "/projects", 
   },
 ]
@@ -56,26 +56,26 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "enviar correo",
+    HREF: "mailto:oscar@techdevai.es",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "TechDevAI",
+    HREF: "https://github.com/TechDevAI-es/"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    HREF: "https://www.linkedin.com/in/oscar-racero-techdevai/",
   },
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
     TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    HREF: "https://twitter.com/productor_23",
   },
 ]
 
