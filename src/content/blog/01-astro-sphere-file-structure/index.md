@@ -1,7 +1,7 @@
 ---
 title: "Astro Sphere: File Structure"
 summary: "Listado del resumen de directorios y archivos de la web. Actualizado por Oscar Racero el 21/01/2025"
-date: "Mar 17 2024"
+date: "2024-03-17"
 draft: false
 tags:
 - Tutorial
