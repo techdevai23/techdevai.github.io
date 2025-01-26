@@ -1,7 +1,7 @@
 ---
 title: "Astro Sphere: File Structure"
-summary: "Aqui puedes encontrar todos los archivos de la web y qué hacen cada uno"
-date: "Mar 17 2024 - 21/01/2025 actualizado y traducido por: Oscar Racero"
+summary: "Listado del resumen de directorios y archivos de la web. Actualizado por Oscar Racero el 21/01/2025"
+date: "Mar 17 2024"
 draft: false
 tags:
 - Tutorial
